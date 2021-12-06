@@ -6,7 +6,7 @@
 /*   By: mtsuji <mtsuji@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/12 18:09:24 by mtsuji            #+#    #+#             */
-/*   Updated: 2021/11/30 16:17:18 by mtsuji           ###   ########.fr       */
+/*   Updated: 2021/12/06 16:07:35 by mtsuji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	ft_putstr(char *str)
 	int	i;
 
 	if (!str)
-			i = write(1, "(null)", 6);
+		i = write(1, "(null)", 6);
 	else
 		i = write(1, &*str, ft_strlen(str));
 	return (i);
